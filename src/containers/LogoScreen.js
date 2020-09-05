@@ -4,13 +4,13 @@ import {StackActions} from '@react-navigation/native';
 import handlePermission from '../utils/Permissions';
 
 const LogoScreen = ({navigation, route}) => {
-  const goToPage = 'HomeScreen1';
+  const initPage = 'BottomTabStack';
   useEffect(() => {
     const runEffect = async () => {
       const permission = await handlePermission();
       if (permission) {
         setTimeout(() => {
-          navigation.dispatch(StackActions.replace(goToPage));
+          navigation.dispatch(StackActions.replace(initPage));
         }, 1000);
       } else {
         alert('Permission Error');
@@ -23,8 +23,8 @@ const LogoScreen = ({navigation, route}) => {
     <View>
       <Text>This is the LogoScreen</Text>
       <Button
-        title={`Go to next page ${goToPage}`}
-        onPress={() => navigation.navigate(goToPage)}
+        title={`Go to next page ${initPage}`}
+        onPress={() => navigation.navigate(initPage)}
       />
     </View>
   );
