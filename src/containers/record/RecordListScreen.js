@@ -28,6 +28,7 @@ const ReactListScreen = ({navigation, route}) => {
     setRecordData(record);
     await storeCsvData(record, date);
   };
+
   if (_.isEmpty(recordData)) {
     return (
       <View style={styles.emptyView}>

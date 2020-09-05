@@ -1,8 +1,11 @@
 import React from 'react';
+import {Text, TouchableOpacity, StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {TabScreen1, TabScreen2} from '../TestScreen';
 
 import RecordListScreen from '../containers/record/RecordListScreen';
+
+import {TabScreen1, TabScreen2} from '../TestScreen';
+
 const BottomTab = createBottomTabNavigator();
 
 const getBottomTabHeaderTitle = (route) => {
@@ -18,6 +21,25 @@ const getBottomTabHeaderTitle = (route) => {
   }
 };
 
+const getHeaderRightAction = (navigation, route) => {
+  const routeName = route.state
+    ? route.state.routes[route.state.index].name
+    : 'RecordListScreen';
+
+  switch (routeName) {
+    case 'RecordListScreen':
+      return (
+        <TouchableOpacity
+          style={styles.headerRight}
+          onPress={() => navigation.navigate('RecordStack')}>
+          <Text>新增</Text>
+        </TouchableOpacity>
+      );
+    default:
+      return <View></View>;
+  }
+};
+
 const BottomTabNavigation = ({navigation, route}) => {
   return (
     <BottomTab.Navigator>
@@ -27,4 +49,10 @@ const BottomTabNavigation = ({navigation, route}) => {
   );
 };
 
-export {BottomTabNavigation, getBottomTabHeaderTitle};
+const styles = StyleSheet.create({
+  headerRight: {
+    padding: 10,
+  },
+});
+
+export {BottomTabNavigation, getBottomTabHeaderTitle, getHeaderRightAction};

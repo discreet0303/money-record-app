@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 
 const RecordItem = ({record}) => {
-  console.log(record);
   return (
     <View style={styles.content}>
       <Text style={styles.contentText}>

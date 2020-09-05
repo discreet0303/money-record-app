@@ -10,9 +10,12 @@ import {
 import {
   BottomTabNavigation,
   getBottomTabHeaderTitle,
+  getHeaderRightAction,
 } from './src/navigation/BottomTabNavigation';
 
 import {HomeScreen1, HomeScreen2} from './src/TestScreen';
+import {View, Text} from 'react-native';
+
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -27,8 +30,9 @@ const App = () => {
         <Stack.Screen
           name="BottomTabStack"
           component={BottomTabNavigation}
-          options={({route}) => ({
+          options={({navigation, route}) => ({
             headerTitle: getBottomTabHeaderTitle(route),
+            headerRight: () => getHeaderRightAction(navigation, route),
           })}
         />
         <Stack.Screen
