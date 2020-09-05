@@ -1,6 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import {View, Text, Button, TouchableOpacity, StyleSheet} from 'react-native';
+import _ from 'lodash';
+import {SwipeListView} from 'react-native-swipe-list-view';
 
+import {
+  RecordItem,
+  RecordHiddenItem,
+} from '../../components/record/RecordListRow';
 import {getCsvData, storeCsvData} from '../../utils/FileManager';
 import {commonDateType, onlyDate} from '../../utils/TimeFormater';
 
@@ -22,15 +28,32 @@ const ReactListScreen = ({navigation, route}) => {
     setRecordData(record);
     await storeCsvData(record, date);
   };
-
+  if (_.isEmpty(recordData)) {
+    return (
+      <View style={styles.emptyView}>
+        <TouchableOpacity
+          style={styles.newRecordButton}
+          onPress={() => navigation.navigate('MoneyStorePage')}>
+          <Text style={styles.newRecordText}>新紀錄</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
   return (
-    <View style={styles.emptyView}>
-      <TouchableOpacity
-        style={styles.newRecordButton}
-        onPress={() => navigation.navigate('MoneyStorePage')}>
-        <Text style={styles.newRecordText}>新紀錄</Text>
-      </TouchableOpacity>
-    </View>
+    <>
+      <SwipeListView
+        data={_.filter(recordData, ['deleted_at', ''])}
+        renderItem={(data, rowMap) => <RecordItem record={data.item} />}
+        renderHiddenItem={(data, rowMap) => (
+          <RecordHiddenItem
+            record={data.item}
+            handleRecordItem={handleRecordItem}
+          />
+        )}
+        rightOpenValue={-60}
+        disableRightSwipe={true}
+      />
+    </>
   );
 };
 

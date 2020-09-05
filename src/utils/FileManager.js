@@ -25,7 +25,7 @@ const transformCsvData = (originalData) => {
       recordData[key] = record[__CSV_DATA_INFO[key]['index']];
     });
 
-    recordData['index'] = rowIndex;
+    recordData['key'] = _.toString(rowIndex);
     data.push(recordData);
   });
 
