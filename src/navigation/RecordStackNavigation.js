@@ -1,5 +1,4 @@
 import React from 'react';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 
 import {HomeScreen1, HomeScreen2} from '../TestScreen';
@@ -7,7 +6,6 @@ import {HomeScreen1, HomeScreen2} from '../TestScreen';
 const stack = createStackNavigator();
 
 const getNavHeaderTitle = (route) => {
-  console.log('getNavHeaderTitle');
   const routeName = route.state
     ? route.state.routes[route.state.index].name
     : 'HomeScreen1';

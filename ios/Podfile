@@ -8,6 +8,8 @@ target 'MoneyRecordProject' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+
   target 'MoneyRecordProjectTests' do
     inherit! :complete
     # Pods for testing
