@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
 import RecordListScreen from '../containers/record/RecordListScreen';
 
 import {TabScreen1, TabScreen2} from '../TestScreen';
@@ -44,7 +46,22 @@ const getHeaderRightAction = (navigation, route) => {
 
 const BottomTabNavigation = ({navigation, route}) => {
   return (
-    <BottomTab.Navigator>
+    <BottomTab.Navigator
+      screenOptions={({route}) => ({
+        tabBarIcon: ({focused, color, size}) => {
+          return (
+            <MaterialCommunityIcons
+              name="format-list-bulleted"
+              color={color}
+              size={40}
+            />
+          );
+        },
+      })}
+      tabBarOptions={{
+        activeTintColor: 'tomato',
+        inactiveTintColor: 'gray',
+      }}>
       <BottomTab.Screen name="RecordListScreen" component={RecordListScreen} />
     </BottomTab.Navigator>
   );
