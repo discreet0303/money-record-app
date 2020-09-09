@@ -1,5 +1,5 @@
-import React from 'react';
-import {Text, TouchableOpacity, StyleSheet} from 'react-native';
+import React, {useState} from 'react';
+import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import RecordListScreen from '../containers/record/RecordListScreen';
@@ -31,7 +31,9 @@ const getHeaderRightAction = (navigation, route) => {
       return (
         <TouchableOpacity
           style={styles.headerRight}
-          onPress={() => navigation.navigate('RecordStack')}>
+          onPress={() =>
+            navigation.push('RecordStack', {screen: 'RecordStoreScreen'})
+          }>
           <Text>新增</Text>
         </TouchableOpacity>
       );
@@ -44,7 +46,6 @@ const BottomTabNavigation = ({navigation, route}) => {
   return (
     <BottomTab.Navigator>
       <BottomTab.Screen name="RecordListScreen" component={RecordListScreen} />
-      <BottomTab.Screen name="TabScreen2" component={TabScreen2} />
     </BottomTab.Navigator>
   );
 };

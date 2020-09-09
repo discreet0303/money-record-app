@@ -28,13 +28,14 @@ const ReactListScreen = ({navigation, route}) => {
     setRecordData(record);
     await storeCsvData(record, date);
   };
-
   if (_.isEmpty(recordData)) {
     return (
       <View style={styles.emptyView}>
         <TouchableOpacity
           style={styles.newRecordButton}
-          onPress={() => navigation.navigate('MoneyStorePage')}>
+          onPress={() =>
+            navigation.push('RecordStack', {screen: 'RecordStoreScreen'})
+          }>
           <Text style={styles.newRecordText}>新紀錄</Text>
         </TouchableOpacity>
       </View>

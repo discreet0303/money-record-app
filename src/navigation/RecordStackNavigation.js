@@ -13,7 +13,7 @@ const getNavHeaderTitle = (route) => {
 
   switch (routeName) {
     case 'RecordStoreScreen':
-      return 'RecordStoreScreen';
+      return '紀錄';
     default:
       return routeName;
   }
@@ -23,7 +23,6 @@ const RecordStackNavigation = ({navigation, route}) => {
   return (
     <stack.Navigator>
       <stack.Screen name="RecordStoreScreen" component={RecordStoreScreen} />
-      <stack.Screen name="HomeScreen2" component={HomeScreen2} />
     </stack.Navigator>
   );
 };
