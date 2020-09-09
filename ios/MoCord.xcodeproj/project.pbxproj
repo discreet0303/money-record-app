@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MoneyRecordProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoneyRecordProjectTests.m */; };
+		00E356F31AD99517003FC87E /* MoCordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoCordTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		24BF83246D3AACB5907232EA /* libPods-MoneyRecordProject-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7051216D572E7CC6A1FA50 /* libPods-MoneyRecordProject-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* MoneyRecordProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoneyRecordProjectTests.m */; };
-		72BB30061898C697B0352A8B /* libPods-MoneyRecordProject-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA1E3E0CFF770B231A2254 /* libPods-MoneyRecordProject-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* MoCordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoCordTests.m */; };
+		50C79DD9BEDFD010C2169360 /* libPods-MoCord-MoCordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 859FAAEF74A28A1201AE0157 /* libPods-MoCord-MoCordTests.a */; };
+		52103CE4FA66F6C8D57CE8E4 /* libPods-MoCord-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2508F8342FDF7DD568E6C58B /* libPods-MoCord-tvOSTests.a */; };
+		5A1F10670031CE708D427941 /* libPods-MoCord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB22EC51D5462464D571D44 /* libPods-MoCord.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		85E420B578F58A9CC11C8BA9 /* libPods-MoneyRecordProject-MoneyRecordProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C37116BC1D5A6B6E8ADA297 /* libPods-MoneyRecordProject-MoneyRecordProjectTests.a */; };
-		8E2DBA21A3175DFEB9167949 /* libPods-MoneyRecordProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5EC2076E3DCB9865E36276 /* libPods-MoneyRecordProject.a */; };
+		F34AD497106F36B26266517A /* libPods-MoCord-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1FE6EEC949F6CF66A229F5 /* libPods-MoCord-tvOS.a */; };
+		CB8FCC03E202455291EAB3BA /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA4BC4B19AD4C65B9AB0FAE /* AntDesign.ttf */; };
+		902E361132E047C4A59B4E80 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DADDF24EAE649CFB8CEF92B /* Entypo.ttf */; };
+		93AFB3474CDC476780286245 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED4F6E3B64147078DE57B95 /* EvilIcons.ttf */; };
+		A8BDFD523B8340C3A09E5D7B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA484B7B4776473CB23CE408 /* Feather.ttf */; };
+		7E5743C119ED45D48DCB7BA8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7057CB471E4802A1402CCE /* FontAwesome.ttf */; };
+		24F0852CF3004C29BD2D3195 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62D76476462F42D59461BC3A /* FontAwesome5_Brands.ttf */; };
+		4E4C20F466FD458394FC03EF /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 870225D460654C06B022BF27 /* FontAwesome5_Regular.ttf */; };
+		00656D86B8B3407584399C3A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A051BB9FBBFE4804A877C40D /* FontAwesome5_Solid.ttf */; };
+		9A52B0223D344FFFB41ED400 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5AF5C76E5814221B975C2F3 /* Fontisto.ttf */; };
+		EE887212A1804EB98BC330D7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0F41127730A49A3BBEF3E4E /* Foundation.ttf */; };
+		0078ACC7FD464801AB1FB8F9 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCC6C457B6074E8A804BEEF7 /* Ionicons.ttf */; };
+		3A790913B5CB41CE9BB458A8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29C2CAA34AB24D3B9AB29A5D /* MaterialCommunityIcons.ttf */; };
+		6E60422F55754DE49F999192 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B147F366C4E744D1BDB67487 /* MaterialIcons.ttf */; };
+		EC5BCCCED35F49B487EF8464 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 165F32F4740A462885460493 /* Octicons.ttf */; };
+		9833E5098D7C4FF099A12EAB /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB59B10F5E194360867981B2 /* SimpleLineIcons.ttf */; };
+		6C0BEBEB678D4FCE9F752C91 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D72327AEF53242FAB4120085 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +44,61 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MoneyRecordProject;
+			remoteInfo = MoCord;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "MoneyRecordProject-tvOS";
+			remoteInfo = "MoCord-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* MoneyRecordProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyRecordProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MoCordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoCordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MoneyRecordProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyRecordProjectTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MoneyRecordProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyRecordProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MoneyRecordProject/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MoneyRecordProject/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MoneyRecordProject/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MoneyRecordProject/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoneyRecordProject/main.m; sourceTree = "<group>"; };
-		1547C27511C829079299400B /* Pods-MoneyRecordProject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject-tvOS/Pods-MoneyRecordProject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		1C37116BC1D5A6B6E8ADA297 /* libPods-MoneyRecordProject-MoneyRecordProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyRecordProject-MoneyRecordProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		263800DFA4232151CD01DA80 /* Pods-MoneyRecordProject-MoneyRecordProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject-MoneyRecordProjectTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject-MoneyRecordProjectTests/Pods-MoneyRecordProject-MoneyRecordProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		2B5EC2076E3DCB9865E36276 /* libPods-MoneyRecordProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyRecordProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* MoneyRecordProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoneyRecordProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* MoneyRecordProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoneyRecordProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BD4610F4E3CF5EEB720015 /* Pods-MoneyRecordProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject.release.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject/Pods-MoneyRecordProject.release.xcconfig"; sourceTree = "<group>"; };
-		3A47ED091EF3337E9CC6FD9F /* Pods-MoneyRecordProject-MoneyRecordProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject-MoneyRecordProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject-MoneyRecordProjectTests/Pods-MoneyRecordProject-MoneyRecordProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		792F070BE33CFDABF2F665C9 /* Pods-MoneyRecordProject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject-tvOSTests/Pods-MoneyRecordProject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MoneyRecordProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86257816C63DEBAB06B96D6A /* Pods-MoneyRecordProject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject-tvOSTests/Pods-MoneyRecordProject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		8A21107E7CC4203513CF8D47 /* Pods-MoneyRecordProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject.debug.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject/Pods-MoneyRecordProject.debug.xcconfig"; sourceTree = "<group>"; };
-		9BEA1E3E0CFF770B231A2254 /* libPods-MoneyRecordProject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyRecordProject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB7051216D572E7CC6A1FA50 /* libPods-MoneyRecordProject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyRecordProject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACACD8C9C2C643EC8AEDB322 /* Pods-MoneyRecordProject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyRecordProject-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MoneyRecordProject-tvOS/Pods-MoneyRecordProject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MoCordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoCordTests.m; sourceTree = "<group>"; };
+		11A609671704E29974428FC9 /* Pods-MoCord-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MoCord-tvOS/Pods-MoCord-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		11D21DF65A5ADEEE05606A93 /* Pods-MoCord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord.debug.xcconfig"; path = "Target Support Files/Pods-MoCord/Pods-MoCord.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MoCord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoCord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MoCord/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MoCord/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MoCord/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MoCord/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoCord/main.m; sourceTree = "<group>"; };
+		2508F8342FDF7DD568E6C58B /* libPods-MoCord-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoCord-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252EBAEC1468BB4F655BDF24 /* Pods-MoCord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord.release.xcconfig"; path = "Target Support Files/Pods-MoCord/Pods-MoCord.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MoCord-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoCord-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MoCord-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoCord-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A4FC4EEA95C20008C6902 /* Pods-MoCord-MoCordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord-MoCordTests.debug.xcconfig"; path = "Target Support Files/Pods-MoCord-MoCordTests/Pods-MoCord-MoCordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4272016AC7C403CCB2D62B18 /* Pods-MoCord-MoCordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord-MoCordTests.release.xcconfig"; path = "Target Support Files/Pods-MoCord-MoCordTests/Pods-MoCord-MoCordTests.release.xcconfig"; sourceTree = "<group>"; };
+		4405AED2C213B25B86F26B8C /* Pods-MoCord-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MoCord-tvOS/Pods-MoCord-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MoCord/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		859FAAEF74A28A1201AE0157 /* libPods-MoCord-MoCordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoCord-MoCordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1FE6EEC949F6CF66A229F5 /* libPods-MoCord-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoCord-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CDC8E1315C289BFFA032E5 /* Pods-MoCord-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MoCord-tvOSTests/Pods-MoCord-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		EAB22EC51D5462464D571D44 /* libPods-MoCord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoCord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD5EFA6AC1E31C18FE6B8DB /* Pods-MoCord-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoCord-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MoCord-tvOSTests/Pods-MoCord-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		0FA4BC4B19AD4C65B9AB0FAE /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DADDF24EAE649CFB8CEF92B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5ED4F6E3B64147078DE57B95 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA484B7B4776473CB23CE408 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E7057CB471E4802A1402CCE /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		62D76476462F42D59461BC3A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		870225D460654C06B022BF27 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A051BB9FBBFE4804A877C40D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5AF5C76E5814221B975C2F3 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0F41127730A49A3BBEF3E4E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCC6C457B6074E8A804BEEF7 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		29C2CAA34AB24D3B9AB29A5D /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B147F366C4E744D1BDB67487 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		165F32F4740A462885460493 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB59B10F5E194360867981B2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D72327AEF53242FAB4120085 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E420B578F58A9CC11C8BA9 /* libPods-MoneyRecordProject-MoneyRecordProjectTests.a in Frameworks */,
+				50C79DD9BEDFD010C2169360 /* libPods-MoCord-MoCordTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2DBA21A3175DFEB9167949 /* libPods-MoneyRecordProject.a in Frameworks */,
+				5A1F10670031CE708D427941 /* libPods-MoCord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BF83246D3AACB5907232EA /* libPods-MoneyRecordProject-tvOS.a in Frameworks */,
+				F34AD497106F36B26266517A /* libPods-MoCord-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72BB30061898C697B0352A8B /* libPods-MoneyRecordProject-tvOSTests.a in Frameworks */,
+				52103CE4FA66F6C8D57CE8E4 /* libPods-MoCord-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MoneyRecordProjectTests */ = {
+		00E356EF1AD99517003FC87E /* MoCordTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MoneyRecordProjectTests.m */,
+				00E356F21AD99517003FC87E /* MoCordTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MoneyRecordProjectTests;
+			path = MoCordTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MoneyRecordProject */ = {
+		13B07FAE1A68108700A75B9A /* MoCord */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +165,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = MoneyRecordProject;
+			name = MoCord;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,12 +173,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				2B5EC2076E3DCB9865E36276 /* libPods-MoneyRecordProject.a */,
-				1C37116BC1D5A6B6E8ADA297 /* libPods-MoneyRecordProject-MoneyRecordProjectTests.a */,
-				AB7051216D572E7CC6A1FA50 /* libPods-MoneyRecordProject-tvOS.a */,
-				9BEA1E3E0CFF770B231A2254 /* libPods-MoneyRecordProject-tvOSTests.a */,
+				EAB22EC51D5462464D571D44 /* libPods-MoCord.a */,
+				859FAAEF74A28A1201AE0157 /* libPods-MoCord-MoCordTests.a */,
+				8C1FE6EEC949F6CF66A229F5 /* libPods-MoCord-tvOS.a */,
+				2508F8342FDF7DD568E6C58B /* libPods-MoCord-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74D5A684B2B24AF9486A73B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D21DF65A5ADEEE05606A93 /* Pods-MoCord.debug.xcconfig */,
+				252EBAEC1468BB4F655BDF24 /* Pods-MoCord.release.xcconfig */,
+				417A4FC4EEA95C20008C6902 /* Pods-MoCord-MoCordTests.debug.xcconfig */,
+				4272016AC7C403CCB2D62B18 /* Pods-MoCord-MoCordTests.release.xcconfig */,
+				11A609671704E29974428FC9 /* Pods-MoCord-tvOS.debug.xcconfig */,
+				4405AED2C213B25B86F26B8C /* Pods-MoCord-tvOS.release.xcconfig */,
+				EBD5EFA6AC1E31C18FE6B8DB /* Pods-MoCord-tvOSTests.debug.xcconfig */,
+				B5CDC8E1315C289BFFA032E5 /* Pods-MoCord-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +207,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MoneyRecordProject */,
+				13B07FAE1A68108700A75B9A /* MoCord */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MoneyRecordProjectTests */,
+				00E356EF1AD99517003FC87E /* MoCordTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D89874BE7B2344E136EE49B2 /* Pods */,
+				74D5A684B2B24AF9486A73B6 /* Pods */,
+				D18317AFD0924BE2A1902B4E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,79 +223,87 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MoneyRecordProject.app */,
-				00E356EE1AD99517003FC87E /* MoneyRecordProjectTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* MoneyRecordProject-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* MoneyRecordProject-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MoCord.app */,
+				00E356EE1AD99517003FC87E /* MoCordTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MoCord-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MoCord-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D89874BE7B2344E136EE49B2 /* Pods */ = {
-			isa = PBXGroup;
+		D18317AFD0924BE2A1902B4E /* Resources */ = {
+			isa = "PBXGroup";
 			children = (
-				8A21107E7CC4203513CF8D47 /* Pods-MoneyRecordProject.debug.xcconfig */,
-				36BD4610F4E3CF5EEB720015 /* Pods-MoneyRecordProject.release.xcconfig */,
-				3A47ED091EF3337E9CC6FD9F /* Pods-MoneyRecordProject-MoneyRecordProjectTests.debug.xcconfig */,
-				263800DFA4232151CD01DA80 /* Pods-MoneyRecordProject-MoneyRecordProjectTests.release.xcconfig */,
-				ACACD8C9C2C643EC8AEDB322 /* Pods-MoneyRecordProject-tvOS.debug.xcconfig */,
-				1547C27511C829079299400B /* Pods-MoneyRecordProject-tvOS.release.xcconfig */,
-				792F070BE33CFDABF2F665C9 /* Pods-MoneyRecordProject-tvOSTests.debug.xcconfig */,
-				86257816C63DEBAB06B96D6A /* Pods-MoneyRecordProject-tvOSTests.release.xcconfig */,
+				0FA4BC4B19AD4C65B9AB0FAE /* AntDesign.ttf */,
+				9DADDF24EAE649CFB8CEF92B /* Entypo.ttf */,
+				5ED4F6E3B64147078DE57B95 /* EvilIcons.ttf */,
+				AA484B7B4776473CB23CE408 /* Feather.ttf */,
+				4E7057CB471E4802A1402CCE /* FontAwesome.ttf */,
+				62D76476462F42D59461BC3A /* FontAwesome5_Brands.ttf */,
+				870225D460654C06B022BF27 /* FontAwesome5_Regular.ttf */,
+				A051BB9FBBFE4804A877C40D /* FontAwesome5_Solid.ttf */,
+				F5AF5C76E5814221B975C2F3 /* Fontisto.ttf */,
+				F0F41127730A49A3BBEF3E4E /* Foundation.ttf */,
+				FCC6C457B6074E8A804BEEF7 /* Ionicons.ttf */,
+				29C2CAA34AB24D3B9AB29A5D /* MaterialCommunityIcons.ttf */,
+				B147F366C4E744D1BDB67487 /* MaterialIcons.ttf */,
+				165F32F4740A462885460493 /* Octicons.ttf */,
+				AB59B10F5E194360867981B2 /* SimpleLineIcons.ttf */,
+				D72327AEF53242FAB4120085 /* Zocial.ttf */,
 			);
-			name = Pods;
-			path = Pods;
+			name = Resources;
 			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MoneyRecordProjectTests */ = {
+		00E356ED1AD99517003FC87E /* MoCordTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoneyRecordProjectTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoCordTests" */;
 			buildPhases = (
-				CB025F5D4E0F34068CA088FF /* [CP] Check Pods Manifest.lock */,
+				5B58568D0F89D3AF1441F79D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				3B53501A7DF0189C22DFF7C9 /* [CP] Copy Pods Resources */,
+				FD7138D9AB4866D05463D0DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = MoneyRecordProjectTests;
-			productName = MoneyRecordProjectTests;
-			productReference = 00E356EE1AD99517003FC87E /* MoneyRecordProjectTests.xctest */;
+			name = MoCordTests;
+			productName = MoCordTests;
+			productReference = 00E356EE1AD99517003FC87E /* MoCordTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* MoneyRecordProject */ = {
+		13B07F861A680F5B00A75B9A /* MoCord */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoneyRecordProject" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoCord" */;
 			buildPhases = (
-				9DB77A9EA7E41ED065D2BCBF /* [CP] Check Pods Manifest.lock */,
+				4CFCCC6EE0565AB15D79980C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				5B0ABC2845FBC9925312C75C /* [CP] Copy Pods Resources */,
+				161D3839ED22FB29DCED3A49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MoneyRecordProject;
-			productName = MoneyRecordProject;
-			productReference = 13B07F961A680F5B00A75B9A /* MoneyRecordProject.app */;
+			name = MoCord;
+			productName = MoCord;
+			productReference = 13B07F961A680F5B00A75B9A /* MoCord.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* MoneyRecordProject-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* MoCord-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoneyRecordProject-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoCord-tvOS" */;
 			buildPhases = (
-				464F31FE248A4C6EF520CC19 /* [CP] Check Pods Manifest.lock */,
+				0F6FA507D27923133DBA01D7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -257,16 +314,16 @@
 			);
 			dependencies = (
 			);
-			name = "MoneyRecordProject-tvOS";
-			productName = "MoneyRecordProject-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* MoneyRecordProject-tvOS.app */;
+			name = "MoCord-tvOS";
+			productName = "MoCord-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MoCord-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* MoneyRecordProject-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* MoCord-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoneyRecordProject-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoCord-tvOSTests" */;
 			buildPhases = (
-				03D93E8B9E0E634AFC3D4D4E /* [CP] Check Pods Manifest.lock */,
+				55DA5CE4CBD2BCBDBB938D4A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -276,9 +333,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "MoneyRecordProject-tvOSTests";
-			productName = "MoneyRecordProject-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* MoneyRecordProject-tvOSTests.xctest */;
+			name = "MoCord-tvOSTests";
+			productName = "MoCord-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MoCord-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +364,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoneyRecordProject" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoCord" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +377,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MoneyRecordProject */,
-				00E356ED1AD99517003FC87E /* MoneyRecordProjectTests */,
-				2D02E47A1E0B4A5D006451C7 /* MoneyRecordProject-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* MoneyRecordProject-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* MoCord */,
+				00E356ED1AD99517003FC87E /* MoCordTests */,
+				2D02E47A1E0B4A5D006451C7 /* MoCord-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MoCord-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +399,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CB8FCC03E202455291EAB3BA /* AntDesign.ttf in Resources */,
+				902E361132E047C4A59B4E80 /* Entypo.ttf in Resources */,
+				93AFB3474CDC476780286245 /* EvilIcons.ttf in Resources */,
+				A8BDFD523B8340C3A09E5D7B /* Feather.ttf in Resources */,
+				7E5743C119ED45D48DCB7BA8 /* FontAwesome.ttf in Resources */,
+				24F0852CF3004C29BD2D3195 /* FontAwesome5_Brands.ttf in Resources */,
+				4E4C20F466FD458394FC03EF /* FontAwesome5_Regular.ttf in Resources */,
+				00656D86B8B3407584399C3A /* FontAwesome5_Solid.ttf in Resources */,
+				9A52B0223D344FFFB41ED400 /* Fontisto.ttf in Resources */,
+				EE887212A1804EB98BC330D7 /* Foundation.ttf in Resources */,
+				0078ACC7FD464801AB1FB8F9 /* Ionicons.ttf in Resources */,
+				3A790913B5CB41CE9BB458A8 /* MaterialCommunityIcons.ttf in Resources */,
+				6E60422F55754DE49F999192 /* MaterialIcons.ttf in Resources */,
+				EC5BCCCED35F49B487EF8464 /* Octicons.ttf in Resources */,
+				9833E5098D7C4FF099A12EAB /* SimpleLineIcons.ttf in Resources */,
+				6C0BEBEB678D4FCE9F752C91 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +450,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		03D93E8B9E0E634AFC3D4D4E /* [CP] Check Pods Manifest.lock */ = {
+		0F6FA507D27923133DBA01D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,11 +465,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoneyRecordProject-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoCord-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		161D3839ED22FB29DCED3A49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoCord/Pods-MoCord-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoCord/Pods-MoCord-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -413,25 +504,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3B53501A7DF0189C22DFF7C9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoneyRecordProject-MoneyRecordProjectTests/Pods-MoneyRecordProject-MoneyRecordProjectTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyRecordProject-MoneyRecordProjectTests/Pods-MoneyRecordProject-MoneyRecordProjectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		464F31FE248A4C6EF520CC19 /* [CP] Check Pods Manifest.lock */ = {
+		4CFCCC6EE0565AB15D79980C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,32 +519,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoneyRecordProject-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoCord-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B0ABC2845FBC9925312C75C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoneyRecordProject/Pods-MoneyRecordProject-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyRecordProject/Pods-MoneyRecordProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DB77A9EA7E41ED065D2BCBF /* [CP] Check Pods Manifest.lock */ = {
+		55DA5CE4CBD2BCBDBB938D4A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,14 +541,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoneyRecordProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoCord-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB025F5D4E0F34068CA088FF /* [CP] Check Pods Manifest.lock */ = {
+		5B58568D0F89D3AF1441F79D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,7 +563,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoneyRecordProject-MoneyRecordProjectTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoCord-MoCordTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,6 +608,24 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FD7138D9AB4866D05463D0DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoCord-MoCordTests/Pods-MoCord-MoCordTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoCord-MoCordTests/Pods-MoCord-MoCordTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -560,7 +633,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* MoneyRecordProjectTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MoCordTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* MoneyRecordProjectTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* MoCordTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +668,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MoneyRecordProject */;
+			target = 13B07F861A680F5B00A75B9A /* MoCord */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* MoneyRecordProject-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* MoCord-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +681,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A47ED091EF3337E9CC6FD9F /* Pods-MoneyRecordProject-MoneyRecordProjectTests.debug.xcconfig */;
+			baseConfigurationReference = 417A4FC4EEA95C20008C6902 /* Pods-MoCord-MoCordTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MoneyRecordProjectTests/Info.plist;
+				INFOPLIST_FILE = MoCordTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +698,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyRecordProject.app/MoneyRecordProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoCord.app/MoCord";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 263800DFA4232151CD01DA80 /* Pods-MoneyRecordProject-MoneyRecordProjectTests.release.xcconfig */;
+			baseConfigurationReference = 4272016AC7C403CCB2D62B18 /* Pods-MoCord-MoCordTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MoneyRecordProjectTests/Info.plist;
+				INFOPLIST_FILE = MoCordTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +718,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyRecordProject.app/MoneyRecordProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoCord.app/MoCord";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A21107E7CC4203513CF8D47 /* Pods-MoneyRecordProject.debug.xcconfig */;
+			baseConfigurationReference = 11D21DF65A5ADEEE05606A93 /* Pods-MoCord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = MoneyRecordProject/Info.plist;
+				INFOPLIST_FILE = MoCord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +738,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MoneyRecordProject;
+				PRODUCT_NAME = MoCord;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +747,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36BD4610F4E3CF5EEB720015 /* Pods-MoneyRecordProject.release.xcconfig */;
+			baseConfigurationReference = 252EBAEC1468BB4F655BDF24 /* Pods-MoCord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = MoneyRecordProject/Info.plist;
+				INFOPLIST_FILE = MoCord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +760,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MoneyRecordProject;
+				PRODUCT_NAME = MoCord;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +768,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACACD8C9C2C643EC8AEDB322 /* Pods-MoneyRecordProject-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 11A609671704E29974428FC9 /* Pods-MoCord-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +779,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MoneyRecordProject-tvOS/Info.plist";
+				INFOPLIST_FILE = "MoCord-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoneyRecordProject-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoCord-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +796,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1547C27511C829079299400B /* Pods-MoneyRecordProject-tvOS.release.xcconfig */;
+			baseConfigurationReference = 4405AED2C213B25B86F26B8C /* Pods-MoCord-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +807,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MoneyRecordProject-tvOS/Info.plist";
+				INFOPLIST_FILE = "MoCord-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoneyRecordProject-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoCord-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +824,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 792F070BE33CFDABF2F665C9 /* Pods-MoneyRecordProject-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = EBD5EFA6AC1E31C18FE6B8DB /* Pods-MoCord-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +834,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MoneyRecordProject-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MoCord-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoneyRecordProject-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoCord-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyRecordProject-tvOS.app/MoneyRecordProject-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoCord-tvOS.app/MoCord-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86257816C63DEBAB06B96D6A /* Pods-MoneyRecordProject-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = B5CDC8E1315C289BFFA032E5 /* Pods-MoCord-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +861,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MoneyRecordProject-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MoCord-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoneyRecordProject-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MoCord-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyRecordProject-tvOS.app/MoneyRecordProject-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoCord-tvOS.app/MoCord-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +992,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoneyRecordProjectTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoCordTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +1001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoneyRecordProject" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoCord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +1010,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoneyRecordProject-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoCord-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +1019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoneyRecordProject-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoCord-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +1028,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoneyRecordProject" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoCord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
