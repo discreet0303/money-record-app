@@ -27,7 +27,6 @@ const ReactListScreen = ({navigation, route}) => {
       const record = await getCsvData(date);
       setRecordData(record);
     });
-
     // Return the function to unsubscribe from the event so it gets removed on unmount
     return unsubscribe;
   }, [navigation]);
@@ -38,6 +37,7 @@ const ReactListScreen = ({navigation, route}) => {
     setRecordData(record);
     await storeCsvData(record, date);
   };
+
   if (_.isEmpty(recordData)) {
     return (
       <View style={styles.emptyView}>

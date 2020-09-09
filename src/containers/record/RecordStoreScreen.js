@@ -44,6 +44,7 @@ const RecordStoreScreen = ({navigation, route}) => {
       deleted_at: '',
     });
     recordInit();
+    navigation.push('ModalStack', {screen: 'TipModal'});
   };
 
   return (
