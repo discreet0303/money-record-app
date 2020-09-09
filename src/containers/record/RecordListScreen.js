@@ -14,13 +14,23 @@ const ReactListScreen = ({navigation, route}) => {
   const [recordData, setRecordData] = useState([]);
   const [date, setDate] = useState(onlyDate());
 
+  // useEffect(() => {
+  //   const runEffect = async () => {
+  //     const record = await getCsvData(date);
+  //     setRecordData(record);
+  //   };
+  //   runEffect();
+  // }, []);
+
   useEffect(() => {
-    const runEffect = async () => {
+    const unsubscribe = navigation.addListener('focus', async () => {
       const record = await getCsvData(date);
       setRecordData(record);
-    };
-    runEffect();
-  }, []);
+    });
+
+    // Return the function to unsubscribe from the event so it gets removed on unmount
+    return unsubscribe;
+  }, [navigation]);
 
   const handleRecordItem = async (recordId) => {
     let record = _.cloneDeep(recordData);

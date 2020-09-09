@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     backgroundColor: 'white',
     alignItems: 'center',
+    marginBottom: 5,
   },
   contentIcon: {
     flex: 1,
@@ -48,9 +49,10 @@ const styles = StyleSheet.create({
   },
   hiddenContent: {
     height: 50,
-    backgroundColor: 'red',
     flexDirection: 'row',
+    backgroundColor: 'red',
     justifyContent: 'flex-end',
+    marginBottom: 5,
   },
   hiddenContentText: {
     height: 50,
