@@ -1,13 +1,43 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {View, TouchableWithoutFeedback, Text, StyleSheet} from 'react-native';
 import Modal from 'react-native-modal';
 
-const TipModal = ({navigation}) => {
+// require params: {type: '', message: ''}
+const TipModal = ({navigation, route}) => {
   const [isModalVisible, setModalVisible] = useState(true);
+  const [modalParams, setModalParams] = useState({
+    type: 'success',
+    message: '',
+  });
 
   const toggleModal = () => {
     navigation.goBack();
     setModalVisible(!isModalVisible);
+  };
+
+  useEffect(() => {
+    setModalParams(route.params);
+  }, [route.params]);
+
+  const messageBlock = () => {
+    let tipView = {height: 50, justifyContent: 'center'};
+    switch (modalParams.type) {
+      case 'success':
+        tipView = {...tipView, backgroundColor: '#4e8cf5'};
+        break;
+      case 'warning':
+        tipView = {...tipView, backgroundColor: '#ffc107'};
+      default:
+        break;
+    }
+
+    return (
+      <TouchableWithoutFeedback onPress={toggleModal}>
+        <View style={{...tipView}}>
+          <Text style={styles.tipText}>{modalParams.message}</Text>
+        </View>
+      </TouchableWithoutFeedback>
+    );
   };
 
   return (
@@ -19,11 +49,7 @@ const TipModal = ({navigation}) => {
       onBackdropPress={toggleModal}
       onBackButtonPress={toggleModal}
       style={styles.modal}>
-      <TouchableWithoutFeedback onPress={toggleModal}>
-        <View style={styles.tipView}>
-          <Text style={styles.tipText}>新增成功</Text>
-        </View>
-      </TouchableWithoutFeedback>
+      {messageBlock()}
     </Modal>
   );
 };
@@ -33,12 +59,12 @@ const styles = StyleSheet.create({
     margin: 0,
     justifyContent: 'flex-end',
   },
-  tipView: {
-    height: 50,
-    backgroundColor: '#4e8cf5',
-    justifyContent: 'center',
+  tipText: {
+    textAlign: 'center',
+    fontSize: 20,
+    color: 'white',
+    fontWeight: 'bold',
   },
-  tipText: {textAlign: 'center', fontSize: 20, color: 'white'},
 });
 
 export default TipModal;

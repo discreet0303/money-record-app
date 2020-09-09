@@ -35,6 +35,13 @@ const RecordStoreScreen = ({navigation, route}) => {
   };
 
   const recordHandler = async () => {
+    if (money === 0) {
+      navigation.push('ModalStack', {
+        screen: 'TipModal',
+        params: {type: 'warning', message: '請輸入金額'},
+      });
+      return;
+    }
     await appendCsvData({
       date: commonDateType(),
       wallet: 0,
@@ -44,7 +51,10 @@ const RecordStoreScreen = ({navigation, route}) => {
       deleted_at: '',
     });
     recordInit();
-    navigation.push('ModalStack', {screen: 'TipModal'});
+    navigation.push('ModalStack', {
+      screen: 'TipModal',
+      params: {type: 'success', message: '新增成功'},
+    });
   };
 
   return (
