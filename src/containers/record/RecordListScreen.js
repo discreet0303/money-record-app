@@ -26,11 +26,9 @@ const ReactListScreen = ({navigation, route}) => {
 
   useFocusEffect(
     React.useCallback(() => {
-      handleRecord(date);
-      setLoading(false);
-      // navigation.setParams({
-      //   date: date,
-      // });
+      handleRecord(date).then(() => {
+        setTimeout(() => setLoading(false), 500);
+      });
     }, [date]),
   );
 
@@ -90,7 +88,7 @@ const ReactListScreen = ({navigation, route}) => {
             },
           });
         }}>
-        <Text style={{fontSize: 45}}>{moment(date).date()}</Text>
+        <Text style={{fontSize: 45}}>{moment(date).format('DD')}</Text>
         <View
           style={{
             borderLeftWidth: 2,
