@@ -79,13 +79,11 @@ const styles = StyleSheet.create({
   },
   contentText: {
     fontSize: 20,
-    flex: 3,
+    flex: 1,
     padding: 10,
   },
   moneyText: {
     fontSize: 18,
-    flex: 1,
-    textAlign: 'right',
   },
   hiddenContent: {
     height: 60,
