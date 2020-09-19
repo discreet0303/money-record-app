@@ -20,7 +20,7 @@ import {appendCsvData} from '../../utils/FileManager';
 import {commonDateType} from '../../utils/TimeFormater';
 
 const RecordStoreScreen = ({navigation, route}) => {
-  const [date] = useState(route.params.date);
+  const [date] = useState(route.params?.date);
   const [mathStack, setMathStack] = useState([]);
   const [money, setMoney] = useState(0);
   const [type, setType] = useState('food');

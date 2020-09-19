@@ -30,11 +30,15 @@ const getHeaderRightAction = (navigation, route) => {
 
   switch (routeName) {
     case 'RecordListScreen':
+      const date = route.state?.routes[route.state.index].params?.date;
       return (
         <TouchableOpacity
           style={styles.headerRight}
           onPress={() =>
-            navigation.push('RecordStack', {screen: 'RecordStoreScreen'})
+            navigation.push('RecordStack', {
+              screen: 'RecordStoreScreen',
+              params: {date: date},
+            })
           }>
           <Text>新增</Text>
         </TouchableOpacity>

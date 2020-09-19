@@ -24,33 +24,27 @@ const ReactListScreen = ({navigation, route}) => {
   const [date, setDate] = useState(moment().format('YYYY-MM-DD'));
   const [records, setRecords] = useState([]);
 
-  // useFocusEffect(
-  //   React.useCallback(() => {
-  //     console.log('useFocusEffect date', date);
-  //     setLoading(false);
-  //   }, []),
-  // );
-  useEffect(() => {
-    updateRecord(date).then(() => {
-      console.log('eff', date);
+  useFocusEffect(
+    React.useCallback(() => {
+      handleRecord(date);
       setLoading(false);
-    });
-  }, [isLoading]);
+      // navigation.setParams({
+      //   date: date,
+      // });
+    }, [date]),
+  );
 
-  useEffect(() => {
-    const unsubscribe = navigation.addListener('focus', async () => {
-      // setLoading(true);
-      console.log('date', date);
-    });
-    // Return the function to unsubscribe from the event so it gets removed on unmount
-    return unsubscribe;
-  }, [navigation]);
+  const handleRecord = async () => {
+    const res = await getCsvData(date);
+    setRecords(res);
+  };
 
   const updateRecord = async (selectedDate) => {
-    console.log('sel', selectedDate);
-    const res = await getCsvData(selectedDate);
     setDate(selectedDate);
-    setRecords(res);
+    navigation.setParams({
+      date: selectedDate,
+    });
+    setLoading(true);
   };
 
   const handleRecordItem = async (recordId) => {
