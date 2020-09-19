@@ -2,6 +2,7 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
 import TipModal from '../components/modal/TipModal';
+import CalendarModal from '../components/modal/CalendarModal';
 import TextInputModal from '../components/TextInputModal';
 import {
   HomeScreen1,
@@ -32,6 +33,7 @@ const ModalStackNavigation = () => {
         }),
       }}>
       <Stack.Screen name="TipModal" component={TipModal} />
+      <Stack.Screen name="CalendarModal" component={CalendarModal} />
       {/* <Stack.Screen name="TextInputModal" component={TextInputModal} /> */}
     </Stack.Navigator>
   );
