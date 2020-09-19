@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import _ from 'lodash';
+import moment from 'moment';
 
 import RecordTypeSelecter from '../../components/record/RecordTypeSelecter';
 import Calculator from '../../components/Calculator';
@@ -19,6 +20,7 @@ import {appendCsvData} from '../../utils/FileManager';
 import {commonDateType} from '../../utils/TimeFormater';
 
 const RecordStoreScreen = ({navigation, route}) => {
+  const [date] = useState(route.params.date);
   const [mathStack, setMathStack] = useState([]);
   const [money, setMoney] = useState(0);
   const [type, setType] = useState('food');
@@ -42,14 +44,17 @@ const RecordStoreScreen = ({navigation, route}) => {
       });
       return;
     }
-    await appendCsvData({
-      date: commonDateType(),
-      wallet: 0,
-      type: type,
-      money: money,
-      note: note,
-      deleted_at: '',
-    });
+    await appendCsvData(
+      {
+        date: moment(date).format('YYYY-MM-DD'),
+        wallet: 0,
+        type: type,
+        money: money,
+        note: note,
+        deleted_at: '',
+      },
+      date,
+    );
     recordInit();
     navigation.push('ModalStack', {
       screen: 'TipModal',

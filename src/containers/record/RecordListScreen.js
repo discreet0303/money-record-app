@@ -69,7 +69,12 @@ const ReactListScreen = ({navigation, route}) => {
     <TouchableOpacity
       style={{alignItems: 'center', marginVertical: 10}}
       onPress={() =>
-        navigation.push('RecordStack', {screen: 'RecordStoreScreen'})
+        navigation.push('RecordStack', {
+          screen: 'RecordStoreScreen',
+          params: {
+            date: date,
+          },
+        })
       }>
       <Text
         style={{fontSize: 22, color: 'gray', textDecorationLine: 'underline'}}>
