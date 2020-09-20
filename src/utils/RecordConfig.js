@@ -8,6 +8,65 @@ export const __RECORD_TYPE = [
   {name: 'others', label: '其他'},
 ];
 
+export const __DEFAULT_RECORD_CATEGORY = {
+  food: {
+    order: 1,
+    name: 'food',
+    label: '食物',
+    calcuMethod: 'sub',
+    iconColor: '#ff8e8e',
+    moneyColor: 'red',
+  },
+  drink: {
+    order: 2,
+    name: 'drink',
+    label: '飲品',
+    calcuMethod: 'sub',
+    iconColor: '#88c0b8',
+    moneyColor: 'red',
+  },
+  transportation: {
+    order: 3,
+    name: 'transportation',
+    label: '交通',
+    calcuMethod: 'sub',
+    iconColor: '#5dc3ff',
+    moneyColor: 'red',
+  },
+  consumption: {
+    order: 4,
+    name: 'consumption',
+    label: '消費',
+    calcuMethod: 'sub',
+    iconColor: '#c289ae',
+    moneyColor: 'red',
+  },
+  home: {
+    order: 5,
+    name: 'home',
+    label: '居家',
+    calcuMethod: 'sub',
+    iconColor: '#b1c529',
+    moneyColor: 'red',
+  },
+  income: {
+    order: 6,
+    name: 'income',
+    label: '收入',
+    calcuMethod: 'add',
+    iconColor: '#edc134',
+    moneyColor: 'green',
+  },
+  others: {
+    order: 7,
+    name: 'others',
+    label: '其他',
+    calcuMethod: 'sub',
+    iconColor: '#a8a8a8',
+    moneyColor: 'red',
+  },
+};
+
 export const __CSV_DATA_INFO = {
   date: {index: 0},
   wallet: {index: 1},

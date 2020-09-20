@@ -3,86 +3,44 @@ import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 import _ from 'lodash';
 
-import {__RECORD_TYPE} from '../../utils/RecordConfig';
+import RecordIcon from './RecordIcon';
+import {__DEFAULT_RECORD_CATEGORY} from '../../utils/RecordConfig';
 
 const RecordTypeSelecter = ({selectedType, typeHandler}) => {
   return (
-    <>
-      {_.map(_.chunk(__RECORD_TYPE, 4), (rowTypes, idx) => {
+    <View style={styles.root}>
+      {_.map(__DEFAULT_RECORD_CATEGORY, (typeInfo, type) => {
         return (
-          <View key={idx} style={styles.row}>
-            {_.map(rowTypes, (type, typeIdx) => (
-              <TouchableOpacity
-                key={typeIdx}
-                style={[
-                  styles.item,
-                  selectedType === type.name ? styles.itemTextActive : {},
-                ]}
-                onPress={() => typeHandler(type.name)}>
-                <Text style={styles.itemText}>{type.label}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
+          <TouchableOpacity
+            key={type}
+            style={[
+              styles.itemBlock,
+              selectedType === type ? styles.itemTextActive : {},
+            ]}
+            onPress={() => typeHandler(type)}>
+            <RecordIcon type={type} iconSize={30} />
+            <Text style={{fontSize: 12}}>{typeInfo.label}</Text>
+          </TouchableOpacity>
         );
       })}
-    </>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  row: {
+  root: {
     flexDirection: 'row',
-    height: 40,
+    flexWrap: 'wrap',
   },
-  item: {
+  itemBlock: {
     width: '25%',
+    alignItems: 'center',
     justifyContent: 'center',
-  },
-  itemText: {
-    textAlign: 'center',
-    fontSize: 20,
+    paddingVertical: 5,
   },
   itemTextActive: {
-    backgroundColor: 'green',
+    backgroundColor: '#d6d6d6',
   },
 });
 
 export default RecordTypeSelecter;
-
-//   recordTypeItemActive: {
-//     width: '25%',
-//     backgroundColor: 'white',
-//   },
-//   recordTypeItemInactive: {
-//     width: '25%',
-//     // backgroundColor: 'green'
-//   },
-//   recordTypeText: {
-//     textAlign: 'center',
-//     textAlignVertical: 'center',
-//     height: 45,
-//     fontSize: 20,
-//   },
-{
-  /* {_.map(_.chunk(__RECORD_TYPE, 4), (rowData, rowIdx) => {
-          return (
-            <View key={rowIdx} style={{flexDirection: 'row'}}>
-              {_.map(rowData, (recordItem, recordItemIdx) => (
-                <TouchableOpacity
-                  key={recordItemIdx}
-                  style={[
-                    styles.recordTypeItem,
-                    recordType == recordItem.name
-                      ? styles.recordTypeItemActive
-                      : styles.recordTypeItemInactive,
-                  ]}
-                  onPress={() => setRecordType(recordItem.name)}>
-                  <Text style={[styles.recordTypeText]}>
-                    {recordItem.label}
-                  </Text>
-                </TouchableOpacity>
-              ))}
-            </View>
-          );
-        })} */
-}

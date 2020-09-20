@@ -17,6 +17,7 @@ import {
   RecordHiddenItem,
 } from '../../components/record/RecordListRow';
 
+import {numberWithCommas, getRecordsAmount} from '../../utils';
 import {getCsvData, storeCsvData} from '../../utils/FileManager';
 
 const ReactListScreen = ({navigation, route}) => {
@@ -46,7 +47,7 @@ const ReactListScreen = ({navigation, route}) => {
   };
 
   const handleRecordItem = async (recordId) => {
-    let record = _.cloneDeep(recordData);
+    let record = _.cloneDeep(records);
     record[recordId].deleted_at = moment().format('YYYY-MM-DD');
     setRecords(record);
     await storeCsvData(record, date);
@@ -103,13 +104,8 @@ const ReactListScreen = ({navigation, route}) => {
           </Text>
           <Text style={{color: 'gray'}}>{moment(date).year()}</Text>
         </View>
-        <Text
-          style={{
-            fontSize: 35,
-            fontWeight: 'bold',
-            color: 'gray',
-          }}>
-          ${_.sumBy(records, (record) => _.toInteger(record.money))}
+        <Text style={{fontSize: 30, color: 'black'}}>
+          {getRecordsAmount(records, '$')}
         </Text>
       </TouchableOpacity>
       {_.isEmpty(records) ? (

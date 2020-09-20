@@ -17,7 +17,6 @@ import RecordTypeSelecter from '../../components/record/RecordTypeSelecter';
 import Calculator from '../../components/Calculator';
 import {mathCalculate} from '../../utils/record/Calculator';
 import {appendCsvData} from '../../utils/FileManager';
-import {commonDateType} from '../../utils/TimeFormater';
 
 const RecordStoreScreen = ({navigation, route}) => {
   const [date] = useState(route.params?.date);
